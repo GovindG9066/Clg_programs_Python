@@ -1,0 +1,101 @@
+🔹 Basic Topics
+
+Introduction to Python
+
+Variables & Data Types
+
+Input / Output (print, input)
+
+Operators (Arithmetic, Relational, Logical, Assignment, Bitwise)
+
+Conditional Statements (if, elif, else)
+
+Loops (for, while, nested loops)
+
+Jump Statements (break, continue, pass)
+
+Strings (slicing, methods, formatting)
+
+Lists (creation, indexing, methods)
+
+Tuples (immutable sequence)
+
+Sets (unique elements, set operations)
+
+Dictionaries (key-value pairs)
+
+🔹 Intermediate Topics
+
+Functions (arguments, return, default, keyword arguments)
+
+Recursion
+
+Lambda Functions
+
+List Comprehension & Dictionary Comprehension
+
+File Handling (read, write, append, with open)
+
+Exception Handling (try, except, finally, raise)
+
+Modules & Packages (import, custom modules)
+
+Python Standard Libraries (math, datetime, os, random, etc.)
+
+🔹 Object-Oriented Programming (OOPs)
+
+Classes & Objects
+
+Constructors (__init__)
+
+Inheritance
+
+Polymorphism
+
+Encapsulation
+
+Abstraction
+
+Magic / Dunder Methods (__str__, __len__, etc.)
+
+🔹 Advanced Topics
+
+Iterators & Generators
+
+Decorators
+
+Regular Expressions (re module)
+
+Multithreading & Multiprocessing
+
+Memory Management & Garbage Collection
+
+Python Virtual Environment
+
+Logging & Debugging
+
+JSON Handling
+
+🔹 Data & Libraries
+
+NumPy (numerical computing)
+
+Pandas (data analysis)
+
+Matplotlib / Seaborn (data visualization)
+
+SQL with Python (sqlite3, MySQL connector)
+
+🔹 Special/Industry Topics
+
+Web Development (Flask / Django)
+
+API Handling (Requests, REST API)
+
+GUI Programming (Tkinter, PyQt)
+
+Data Science (Machine Learning basics with Scikit-learn)
+
+Automation (Selenium, pyautogui)
+
+Cybersecurity (basic scripting, socket programming)
