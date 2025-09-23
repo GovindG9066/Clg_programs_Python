@@ -190,3 +190,10 @@ _age=21
 clg_name="VIIT Baramati"
 myAddress="A/P Yenere,Tell Junnar, Dist pune"
 rollNo123=18
+
+print("List in python :")
+
+mylist=[7,8,6,7,84,52]
+print(mylist)
+mylist.append(4)
+print(mylist)
