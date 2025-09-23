@@ -120,6 +120,65 @@ while count <= 10 :
     print(num," * ",count," = ",count*num )
     count+=1
 
+print("function 5 Example :")
+# 1
+def addition(a,b):
+    return a+b
 
+x=int(input("Enter the 1st number : "))
+y=int(input("Enter a 2nd number : "))
+z=addition(x,y)
+print(z)
+
+# 2nd
+def fib(a,b,num):
+    if num == 0:
+        return
+    z=a+b
+    print(z)
     
+    fib(b,z,num-1)
 
+a=0
+b=1
+count=10
+print(a)
+print(b)
+fib(a,b,count-2)
+
+# 3rd
+
+def table(num):
+    for i in range(1,10+1):
+        print(num*i)
+
+table(5)
+
+
+# 4th
+
+def evenodd(num):
+    if num % 2 == 0:
+        print("Even Number")
+    else:
+        print("Odd Number")
+
+evenodd(17)
+
+# 5th
+
+def seriesofeven(num,count):
+    if count==0:
+        return
+    if num % 2 == 0:
+        print("Even numbers are : ")
+        print(num)
+        
+    else:
+        print("Odd Numbers are : ")
+        print(num)
+        
+
+    seriesofeven(num+1,count-1)
+
+seriesofeven(1,11)
