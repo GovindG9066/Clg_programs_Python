@@ -182,3 +182,11 @@ def seriesofeven(num,count):
     seriesofeven(num+1,count-1)
 
 seriesofeven(1,11)
+
+print("Identifires 5 Example :")
+
+name="Govind"
+_age=21
+clg_name="VIIT Baramati"
+myAddress="A/P Yenere,Tell Junnar, Dist pune"
+rollNo123=18
