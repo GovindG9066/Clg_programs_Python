@@ -82,4 +82,44 @@ for i in range(1,num+1):
     if num % i==0:
         print(i)
 
+print("While loop : ")
+
+# 1
+count=10
+num=1
+while num != count+1:
+    print(num," Hello")
+    num+=1 
+
+# 2
+count=5
+while count != 0:
+    print("* " * count)
+    count-=1
+    
+
+# 3
+num=1
+count=5
+while num <= count:
+    print("* " * num)
+    num+=1
+
+# 4
+num=0
+count=5
+while count > 0:
+    print("  " * num + "* " * count )
+    num+=1
+    count-=1
+
+# 5
+num=int(input("Enter a number : "))
+count=1
+while count <= 10 :
+    print(num," * ",count," = ",count*num )
+    count+=1
+
+
+    
 
