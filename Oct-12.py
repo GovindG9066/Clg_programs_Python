@@ -30,3 +30,8 @@ name = "Govind"
 for i in range(len(name)):
     if name[i] == "i":
         print(f"{name[i]} = {i}")
+
+a="Govind"
+b=" Gadekar"
+
+print(a+b)
