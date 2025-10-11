@@ -18,3 +18,9 @@ print(s)
 s[0]="B"
 op="".join(s)
 print(op)
+
+print("Slicing : ")
+
+n="Hello"
+print(n[1:3])
+
