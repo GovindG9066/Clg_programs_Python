@@ -24,3 +24,9 @@ print("Slicing : ")
 n="Hello"
 print(n[1:3])
 
+print("Searching : ")
+
+name = "Govind"
+for i in range(len(name)):
+    if name[i] == "i":
+        print(f"{name[i]} = {i}")
