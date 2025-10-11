@@ -33,11 +33,24 @@ class Linkedlist:
         new_node.next=self.head
         self.head=new_node
 
+    def insert_at_end(self,new_data):
+        new_node=Node(new_data)
+        current=self.head
+
+        if self.head==None:
+            self.head=new_node
+            return
+        while current.next:
+            current=current.next
+        current.next=new_node
+
 
 def main():
     llist=Linkedlist()
     llist.head=n1
     llist.insert_at_beginning(111)
+    llist.insert_at_end(900)
+
     llist.traversal()
 if __name__=="__main__":
     main()
