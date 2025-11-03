@@ -24,10 +24,14 @@ class LinkedList:
     def insert_at_end(self,new_data):
         new_node=Node(new_data)
         current=self.head
+        if self.head==None:
+            self.head=new_node
         while current.next:
             current=current.next
         current.next=new_node
-
+    
+    def insert_at_position(self,new_data,position):
+        
 
 n1=Node(25)
 n2=Node(50)
@@ -43,6 +47,7 @@ def main():
     ll.head=n1
     ll.insert_at_beginning(101)
     ll.insert_at_end(321)
+    ll.insert_at_position(221133,3)
     ll.traversal(ll.head)
 
 if __name__=="__main__":
