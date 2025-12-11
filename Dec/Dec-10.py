@@ -283,3 +283,10 @@ if sum1 == num:
     print(num," is Perfect num")
 else:
     print(num,"Not a Perfect num")
+
+# 25. Number pattern
+print("25. Number pattern")
+
+count=5
+for i in range(1,count+1):
+    print(f"{i} " * i)
