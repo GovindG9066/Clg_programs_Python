@@ -169,4 +169,11 @@ for num in fibseries(10):
     print(num)
 
 
+# 14. mearge 2 dict
+print("Mearged 2 dict :")
 
+dict1={"a":"Govind","Age":21}
+dict2={"Dist":"Pune","State":"Maharashtra"}
+
+dict1.update(dict2)
+print(dict1)
