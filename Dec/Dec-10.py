@@ -43,14 +43,35 @@ print(sum_of_squares(5))
 
 # print("The Average is ",average())
 
-def average():
-    count=int(input("Enter a count :"))
+# def average():
+#     count=int(input("Enter a count :"))
+#     l1=[]
+#     for i in range(1,count+1):
+#         a=int(input("Enter a num :"))
+#         l1.append(a)
+#     print(l1)
+#     return (sum(l1)/(count))
+
+# print("Average is :",average())
+        
+# iteration n number and print the sum of current and previous num
+print("iterate the n numbers & print the sum of current and previous number :")
+
+def currprevsum(count):
     l1=[]
     for i in range(1,count+1):
-        a=int(input("Enter a num :"))
-        l1.append(a)
-    print(l1)
-    return (sum(l1)/(count))
+        num=int(input("Enter a num :"))
+        l1.append(num)
+    print("Initial List :",l1)
+    prev=0
+    l2=[]
+    for curr in l1:
+        sum=curr+prev
+        prev=curr
+        l2.append(sum)
+    print("List with sum :",l2)
 
-print("Average is :",average())
-        
+count=int(input("Enter a count :"))
+currprevsum(count)
+
+    
