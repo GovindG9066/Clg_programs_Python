@@ -296,3 +296,12 @@ print("26. Star Pattern (Simple Right Angle Triangle)")
 count=5
 for i in range(1,count+1):
     print("* " * i)
+
+# 27. Number pattern 1,12,123,1234 etc
+print("Number pattern 1,12,123,1234 etc")
+
+count=5
+for i in range(1,count+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
