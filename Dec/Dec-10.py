@@ -290,3 +290,9 @@ print("25. Number pattern")
 count=5
 for i in range(1,count+1):
     print(f"{i} " * i)
+
+# 26. Star Pattern (Simple Right Angle Triangle)
+print("26. Star Pattern (Simple Right Angle Triangle)")
+count=5
+for i in range(1,count+1):
+    print("* " * i)
