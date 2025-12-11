@@ -305,3 +305,14 @@ for i in range(1,count+1):
     for j in range(1,i+1):
         print(j,end=" ")
     print()
+
+# 30. number pattern like 1,23,456,78910
+print("Number pattern :")
+
+count=5
+num=1
+for i in range(1,count+1):
+    for j in range(1,i+1):
+        print(num,end=" ")
+        num+=1
+    print()
