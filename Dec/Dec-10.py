@@ -134,5 +134,39 @@ if re.match(pattern,URL):
 else:
     print("Invalid URL")
 
+# Exception Handling
+print("Exception Handling :")
+
+try:
+    file=open("file.txt","r")
+except FileNotFoundError as e:
+    print("404 error file Not Found")
+    
+    #or
+
+# try:
+#     first=int(input("Enter a first num :"))
+#     second=int(input("Enter a second num :"))
+
+#     result=first/second
+#     print(result)
+# except ValueError:
+#     print("Enter the correct Integer input")
+# except ZeroDivisionError:
+#     print("Divide by Zero is not possible")
+# except:
+#     print("Other error")
+
+# 13. fib series using yield keyword
+print("Fib series using yield keyword :")
+
+def fibseries(n):
+    a,b=0,1
+    for i in range(n):
+        yield a
+        a,b=b,a+b
+for num in fibseries(10):
+    print(num)
+
 
 
