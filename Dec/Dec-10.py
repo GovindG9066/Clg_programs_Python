@@ -57,21 +57,36 @@ print(sum_of_squares(5))
 # iteration n number and print the sum of current and previous num
 print("iterate the n numbers & print the sum of current and previous number :")
 
-def currprevsum(count):
-    l1=[]
-    for i in range(1,count+1):
-        num=int(input("Enter a num :"))
-        l1.append(num)
-    print("Initial List :",l1)
-    prev=0
-    l2=[]
-    for curr in l1:
-        sum=curr+prev
-        prev=curr
-        l2.append(sum)
-    print("List with sum :",l2)
+# def currprevsum(count):
+#     l1=[]
+#     for i in range(1,count+1):
+#         num=int(input("Enter a num :"))
+#         l1.append(num)
+#     print("Initial List :",l1)
+#     prev=0
+#     l2=[]
+#     for curr in l1:
+#         sum=curr+prev
+#         prev=curr
+#         l2.append(sum)
+#     print("List with sum :",l2)
 
-count=int(input("Enter a count :"))
-currprevsum(count)
+# count=int(input("Enter a count :"))
+# currprevsum(count)
+
+# 6 prime num function
+print("Function for prime no or not :")
+
+def primeno(num):
+    prime=True
+    for i in range(2,num):
+        if num % i == 0:
+            prime = False
+    if prime == True:
+        print(f"The num {num} is Prime ")
+    else:
+        print(f"The num {num} is Not Prime")
+
+primeno(19)
 
     
