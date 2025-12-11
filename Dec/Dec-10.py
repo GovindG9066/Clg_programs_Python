@@ -31,3 +31,26 @@ def sum_of_squares(num):
     return (num**2) + sum_of_squares(num-1)
 
 print(sum_of_squares(5))
+
+# 3 create fu average() which will return the average of the number input by user
+
+# def average():
+#     num=input("Enter the number of list with space :")
+
+#     l1=list(map(float,num.split()))
+
+#     return (sum(l1)/len(l1))
+
+# print("The Average is ",average())
+
+def average():
+    count=int(input("Enter a count :"))
+    l1=[]
+    for i in range(1,count+1):
+        a=int(input("Enter a num :"))
+        l1.append(a)
+    print(l1)
+    return (sum(l1)/(count))
+
+print("Average is :",average())
+        
