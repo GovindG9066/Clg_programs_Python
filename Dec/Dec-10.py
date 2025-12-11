@@ -236,16 +236,30 @@ print(set1)
 # 19. custom exception handling
 print("19. custom exception handling")
 
-try:
-    f1=int(input("Enter first num :"))
-    f2=int(input("Enter second num :"))
+# try:
+#     f1=int(input("Enter first num :"))
+#     f2=int(input("Enter second num :"))
 
-    result=f1/f2
+#     result=f1/f2
 
-    if f2 == 0:
-        raise ZeroDivisionError
+#     if f2 == 0:
+#         raise ZeroDivisionError
    
-except ValueError:
-    print("Invalid input")
-except ZeroDivisionError as zero:
-    print("Divisible by Zero is not possible")
+# except ValueError:
+#     print("Invalid input")
+# except ZeroDivisionError as zero:
+#     print("Divisible by Zero is not possible")
+
+# 21. Armstrong number program
+print("21. Armstrong number program")
+num=153
+temp=num
+res=0
+while temp:
+    digit=temp % 10
+    res=res+digit**3
+    temp=temp//10
+if res==num:
+    print(num,"is an Armstron Num")
+else:
+    print(num,"is not an Armstron Num")
