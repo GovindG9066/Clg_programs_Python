@@ -94,7 +94,7 @@ print("Function for prime no or not :")
 print("7. input string from user and remove the vowels from string :")
 
 def removevowels(userinput):
-    print(userinput)
+    print("User input :",userinput)
     vowels="aeiouAEIOU"
     result=""
 
@@ -102,4 +102,4 @@ def removevowels(userinput):
         if char not in vowels:
             result+=char
     return result
-print(removevowels("Govind"))
+print("User input without vowels :",removevowels("Govind"))
