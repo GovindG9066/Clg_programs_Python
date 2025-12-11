@@ -219,3 +219,17 @@ print(set1)
 
 dict01={x:x for x in range(1,10) if x % 2 == 0}
 print(dict01)
+
+# 18.demonstrate the list dict tup set
+print("demonstrate the list dict tup set")
+
+list1=[1,2,4,5,5,7]
+tup1=(1,2,4,5,5,7)
+set1={1,2,4,5,5,7}
+dict1={1:2,4:5,5:7}
+
+print(list1)
+print(tup1)
+print(dict1)
+print(set1)
+
