@@ -195,3 +195,13 @@ def same_element(lst):
 print(same_element([12,15,35,45,96,12]))
 print(same_element([12,15,35,45,96,1]))
 
+# 16. create tuple ; print num which is divisibal by 5
+print("16. create tuple; print num which is divisibal by 5")
+
+tup=(12,45,86,4,6,8,2,15,354,3554,61,74)
+print(tup)
+
+for item in tup:
+    if item % 5 == 0:
+        print(item)
+        
