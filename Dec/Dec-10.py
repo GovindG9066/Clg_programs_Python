@@ -323,3 +323,10 @@ print(" 29. up side down right angle triange")
 count=5
 for i in range(1,count+1):
     print("* " * (count+1-i))
+
+# 30. Star Pattern (Triangle pattern with diagonal)
+print("30. Star Pattern (Triangle pattern with diagonal)")
+
+count=5
+for i in range(1,count+1):
+    print("  " * (count-i) + "* " * i + "* " * (i-1))
