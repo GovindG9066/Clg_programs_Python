@@ -233,3 +233,19 @@ print(tup1)
 print(dict1)
 print(set1)
 
+# 19. custom exception handling
+print("19. custom exception handling")
+
+try:
+    f1=int(input("Enter first num :"))
+    f2=int(input("Enter second num :"))
+
+    result=f1/f2
+
+    if f2 == 0:
+        raise ZeroDivisionError
+   
+except ValueError:
+    print("Invalid input")
+except ZeroDivisionError as zero:
+    print("Divisible by Zero is not possible")
