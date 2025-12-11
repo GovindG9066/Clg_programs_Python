@@ -177,3 +177,21 @@ dict2={"Dist":"Pune","State":"Maharashtra"}
 
 dict1.update(dict2)
 print(dict1)
+
+# 15. return true if first and last element is same
+print("Return true if first and last element is same else return false :")
+
+# def same_element():
+#     list3=[1,2,5,4,6,1]
+#     if list3[0] == list3[-1]:
+#         return True
+#     return False
+# print(same_element())
+
+# 2nd
+
+def same_element(lst):
+    return lst[0] == lst[-1]
+print(same_element([12,15,35,45,96,12]))
+print(same_element([12,15,35,45,96,1]))
+
