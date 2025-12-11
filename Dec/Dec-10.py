@@ -204,4 +204,18 @@ print(tup)
 for item in tup:
     if item % 5 == 0:
         print(item)
-        
+
+# 17. comphihension of list,set,tup,dict
+print("17. comphihension of list,set,tup,dict")
+
+l1=[i for i in range(1,5) if i % 2 == 0]
+print(l1)
+
+tup1=tuple(num for num in range(2,51,2))
+print(tup1)
+
+set1={x for x in range(9,91) if x % 9 == 0}
+print(set1)
+
+dict01={x:x for x in range(1,10) if x % 2 == 0}
+print(dict01)
