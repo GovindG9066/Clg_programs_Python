@@ -77,16 +77,29 @@ print("iterate the n numbers & print the sum of current and previous number :")
 # 6 prime num function
 print("Function for prime no or not :")
 
-def primeno(num):
-    prime=True
-    for i in range(2,num):
-        if num % i == 0:
-            prime = False
-    if prime == True:
-        print(f"The num {num} is Prime ")
-    else:
-        print(f"The num {num} is Not Prime")
+# def primeno(num):
+#     prime=True
+#     for i in range(2,num):
+#         if num % i == 0:
+#             prime = False
+#     if prime == True:
+#         print(f"The num {num} is Prime ")
+#     else:
+#         print(f"The num {num} is Not Prime")
 
-primeno(19)
+# primeno(19)
 
-    
+# 7 get input string from user and delete the vowels from the string and print it again
+
+print("7. input string from user and remove the vowels from string :")
+
+def removevowels(userinput):
+    print(userinput)
+    vowels="aeiouAEIOU"
+    result=""
+
+    for char in userinput:
+        if char not in vowels:
+            result+=char
+    return result
+print(removevowels("Govind"))
