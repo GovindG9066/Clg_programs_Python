@@ -263,3 +263,23 @@ if res==num:
     print(num,"is an Armstron Num")
 else:
     print(num,"is not an Armstron Num")
+
+# 22. take the input from user, a num and show it prime factors
+print("22. Prime Factor of the number :")
+
+
+# 23 perfect number addition of the num which is module of input
+print("23. Perfect Number")
+
+num=28
+lst01=[]
+for i in range(1,num):
+    if num % i == 0:
+        lst01.append(i)
+
+sum1=sum(lst01)
+
+if sum1 == num:
+    print(num," is Perfect num")
+else:
+    print(num,"Not a Perfect num")
