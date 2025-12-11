@@ -90,7 +90,6 @@ print("Function for prime no or not :")
 # primeno(19)
 
 # 7 get input string from user and delete the vowels from the string and print it again
-
 print("7. input string from user and remove the vowels from string :")
 
 def removevowels(userinput):
@@ -103,3 +102,37 @@ def removevowels(userinput):
             result+=char
     return result
 print("User input without vowels :",removevowels("Govind"))
+
+# 8.accept the string from the user print char which is present on the even index
+print("accept the string from the user and print the char on the even index :")
+
+def Char_at_even_index(userinput):
+    result=""
+    print("Initially :",userinput)
+    for i in range(len(userinput)):
+        if i % 2 == 0:
+            result+=userinput[i]
+            
+    print("After remove :",result)
+
+Char_at_even_index("Govind")
+
+#2nd small version
+print("This is the simple version,One line code :")
+n="Govind"
+print(n[::2])
+
+# 9.Valid URL 
+print("URL validation...")
+import re
+
+URL="https://www.google.com"
+pattern=r"^https?://[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
+
+if re.match(pattern,URL):
+    print("Valid URL")
+else:
+    print("Invalid URL")
+
+
+
