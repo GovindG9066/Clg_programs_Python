@@ -306,7 +306,7 @@ for i in range(1,count+1):
         print(j,end=" ")
     print()
 
-# 30. number pattern like 1,23,456,78910
+# 28. number pattern like 1,23,456,78910
 print("Number pattern :")
 
 count=5
@@ -316,3 +316,10 @@ for i in range(1,count+1):
         print(num,end=" ")
         num+=1
     print()
+
+# 29. up side down right angle triange
+print(" 29. up side down right angle triange")
+
+count=5
+for i in range(1,count+1):
+    print("* " * (count+1-i))
