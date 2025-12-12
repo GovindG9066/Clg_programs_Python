@@ -394,3 +394,9 @@ for i in range(1,51):
     if i % 2 == 0:
         evenno.append(i)
 print(evenno)
+
+# 37. find largest number from the list
+print("37. find largest number from the list")
+
+lst=[85,65,65,6595,6155,62,552,656,223,5,62,611,65]
+print(max(lst))
