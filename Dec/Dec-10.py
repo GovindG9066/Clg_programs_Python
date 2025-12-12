@@ -386,3 +386,11 @@ while count <= num:
     if num % count == 0:
         print(count)
     count+=1
+
+# 36.list of even number between 1 to 50
+print("36.list of even number between 1 to 50")
+evenno=[]
+for i in range(1,51):
+    if i % 2 == 0:
+        evenno.append(i)
+print(evenno)
