@@ -400,3 +400,20 @@ print("37. find largest number from the list")
 
 lst=[85,65,65,6595,6155,62,552,656,223,5,62,611,65]
 print(max(lst))
+
+# 38. palandrome number 
+print("Palandrome number program :")
+
+num=121
+rev=0
+temp=num
+
+while temp:
+    digit=temp % 10
+    rev=rev*10+digit
+    temp=temp // 10
+
+if num == rev:
+    print(f"{rev} Palandrom number")
+else:
+    print(f"{rev} Not a Palandrom number")
