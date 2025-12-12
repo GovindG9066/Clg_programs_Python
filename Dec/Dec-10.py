@@ -429,7 +429,18 @@ l3=[]
 for i in l1:
     if i % 2 != 0:
         l3.append(i)
+
 for j in l2:
     if j % 2 == 0:
         l3.append(j)
 print(l3)
+
+# 40. new set from 2 set with unique item
+print("40. new set from 2 set with unique item")
+
+s1={1,2,3,4,58}
+s2={9,5,3,7,9,1}
+
+s3=s1.union(s2)
+
+print("new set unique items :",s3)
