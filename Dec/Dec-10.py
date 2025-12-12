@@ -417,3 +417,19 @@ if num == rev:
     print(f"{rev} Palandrom number")
 else:
     print(f"{rev} Not a Palandrom number")
+
+# 39. new list with the combination of 2 list were odd num from first list and even numbers from second list 
+print("39. new list with odd num from list 1 and even num from list 2")
+
+l1=[7,6,1,8,3,4,56,9,2,4,5,1,3]
+l2=[3,5,9,8,4,6,4,65,4,6,1]
+
+l3=[]
+
+for i in l1:
+    if i % 2 != 0:
+        l3.append(i)
+for j in l2:
+    if j % 2 == 0:
+        l3.append(j)
+print(l3)
