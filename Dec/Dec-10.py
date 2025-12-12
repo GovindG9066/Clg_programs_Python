@@ -356,3 +356,13 @@ for i in range(1,11):
     print("Multiplication table of : ",i)
     for j in range(1,11):
         print(f"{i} * {j} = {i*j}")
+
+# print even number from list   
+print("even number form list :")
+
+even_num_list=[75,8,89565,89,55,895,8598,524,865,5454,55]
+
+for i in even_num_list:
+    if i % 2 == 0:
+        print(i)
+        
