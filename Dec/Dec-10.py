@@ -349,16 +349,16 @@ print(a.sound())
 print(a.properties())
 print(a.features())
 
-#multiplication table 1-10
-print("Multiplication table from 1-10")
+# 32. multiplication table 1-10
+print("32. Multiplication table from 1-10")
 
 for i in range(1,11):
     print("Multiplication table of : ",i)
     for j in range(1,11):
         print(f"{i} * {j} = {i*j}")
 
-# print even number from list   
-print("even number form list :")
+# 33. print even number from list   
+print("33. even number form list :")
 
 even_num_list=[75,8,89565,89,55,895,8598,524,865,5454,55]
 
@@ -366,3 +366,23 @@ for i in even_num_list:
     if i % 2 == 0:
         print(i)
         
+# 34. outer fun and inner fun
+print("34. outer function, inner function")
+
+def outer(a,b):
+    def inner():
+        return a+b
+    return inner()+5
+
+print(f"addition with outer and inner function :{outer(3,2)}")
+
+# 35. find the factor of the number using while loop
+print("35. find the factor of the number using while loop")
+
+num=15
+count=1
+
+while count <= num:
+    if num % count == 0:
+        print(count)
+    count+=1
