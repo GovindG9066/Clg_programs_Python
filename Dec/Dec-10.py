@@ -330,3 +330,21 @@ print("30. Star Pattern (Triangle pattern with diagonal)")
 count=5
 for i in range(1,count+1):
     print("  " * (count-i) + "* " * i + "* " * (i-1))
+
+# inheritance example
+
+class dog:
+    def sound(self):
+        return "Brak"
+class cat:
+    def properties(self):
+        return "Having a 4 leg and with different colors"
+
+class Animal(dog,cat):
+    def features(self):
+        return "different bread,color,sound"
+    
+a=Animal()
+print(a.sound())
+print(a.properties())
+print(a.features())
