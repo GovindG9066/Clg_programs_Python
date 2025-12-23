@@ -43,16 +43,16 @@ print(sum_of_squares(5))
 
 # print("The Average is ",average())
 
-# def average():
-#     count=int(input("Enter a count :"))
-#     l1=[]
-#     for i in range(1,count+1):
-#         a=int(input("Enter a num :"))
-#         l1.append(a)
-#     print(l1)
-#     return (sum(l1)/(count))
+def average():
+    count=int(input("Enter a count :"))
+    l1=[]
+    for i in range(1,count+1):
+        a=int(input("Enter a num :"))
+        l1.append(a)
+    print(l1)
+    return (sum(l1)/(count))
 
-# print("Average is :",average())
+print("Average is :",average())
         
 # iteration n number and print the sum of current and previous num
 print("iterate the n numbers & print the sum of current and previous number :")
@@ -228,27 +228,28 @@ tup1=(1,2,4,5,5,7)
 set1={1,2,4,5,5,7}
 dict1={1:2,4:5,5:7}
 
-print(list1)
-print(tup1)
-print(dict1)
-print(set1)
+print(f"List:{list1}")
+print(f"tuple:{tup1}")
+print(f"Set:{set1}")
+print(f"Dict:{dict1}")
+
 
 # 19. custom exception handling
 print("19. custom exception handling")
 
-# try:
-#     f1=int(input("Enter first num :"))
-#     f2=int(input("Enter second num :"))
+try:
+    f1=int(input("Enter first num :"))
+    f2=int(input("Enter second num :"))
 
-#     result=f1/f2
+    result=f1/f2
 
-#     if f2 == 0:
-#         raise ZeroDivisionError
+    if f2 == 0:
+        raise ZeroDivisionError
    
-# except ValueError:
-#     print("Invalid input")
-# except ZeroDivisionError as zero:
-#     print("Divisible by Zero is not possible")
+except ValueError:
+    print("Invalid input")
+except ZeroDivisionError as zero:
+    print("Divisible by Zero is not possible")
 
 # 21. Armstrong number program
 print("21. Armstrong number program")
@@ -292,10 +293,10 @@ for i in range(1,count+1):
     print(f"{i} " * i)
 
 # 26. Star Pattern (Simple Right Angle Triangle)
-print("26. Star Pattern (Simple Right Angle Triangle)")
-count=5
-for i in range(1,count+1):
-    print("* " * i)
+# print("26. Star Pattern (Simple Right Angle Triangle)")
+# count=5
+# for i in range(1,count+1):
+#     print("* " * i)
 
 # 27. Number pattern 1,12,123,1234 etc
 print("Number pattern 1,12,123,1234 etc")
@@ -908,3 +909,17 @@ class circle:
 c=circle(8)
 print(c.area())
 print(c.perimeater())
+
+# 42. person class with some attribute calculate the age :
+print("Calculate the age base on date of birth")
+import datetime
+class person:
+    def __init__(self,name,country,dob):
+        self.name=name
+        self.country=country
+        self.dob=dob
+
+    def age(self):
+        return self.dob-datetime
+p1=person("Govind","India","2004-09-07")
+print(p1.age())
